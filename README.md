@@ -31,7 +31,7 @@ database.addRecord('table1', {name:'record1'}, function(err,insCnt){
     console.log(insCnt, ' record(s) created');
 });
 ```
-For convenience it is possible to set a context for the functions execution. By default the context is deleted after the execution, but it can be set a timeout of X executions.
+For convenience it is possible to set a context for the functions execution.
 ```javascript
 database.setContext({recordName:'record1', newName:'updatedRecord'});
 database.updateRecord('table1'
