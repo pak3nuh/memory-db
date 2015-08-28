@@ -1,0 +1,17 @@
+{
+  "name": "memory-db",
+  "description":"An in memory database that uses child processes for async behaviour and load balancing",
+  "version": "1.0.2",
+  "main":"./index.js",
+  "dependencies": {
+    "uuid":"^2.0.1"
+  },
+  "author": {
+    "name": "pak3nuh",
+    "email": "nuno.pik@gmail.com"
+  },
+  "repository":{
+	"type" : "git"
+	, "url" : "https://github.com/pak3nuh/simple-node-proxy.git"
+  }
+}
