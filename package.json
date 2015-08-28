@@ -12,6 +12,6 @@
   },
   "repository":{
 	"type" : "git"
-	, "url" : "https://github.com/pak3nuh/simple-node-proxy.git"
+	, "url" : "https://github.com/pak3nuh/memory-db"
   }
 }
